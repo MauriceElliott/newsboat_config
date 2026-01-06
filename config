@@ -1,0 +1,11 @@
+# Where to store the cache/db (can be anywhere)
+cache-file "~/.config/newsboat/cache.db"
+
+# Where to store the feed list (we’ll point to urls file below)
+urls-source "local"
+
+# UI tweaks (optional but nice)
+reload-threads 4
+browser "xdg-open"
+show-read-feeds no
+cleanup-on-quit yes
